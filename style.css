@@ -1,0 +1,86 @@
+body {
+  background-color: #1c1d25;
+}
+
+
+
+.watch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block; /* Entfernt Standard-Whitespace unter dem Bild */
+}
+
+#date {
+  position: absolute;
+  font-family: 'Orbitron', sans-serif;
+  color: whitesmoke;
+  background-color: #2d2d2d;
+  margin-top: 10px;
+  margin-left: -3px;
+}
+
+
+#watchface {
+  position: absolute;
+  font-family: 'Orbitron', sans-serif;
+  color: whitesmoke;
+  background-color: #2d2d2d;
+  margin-top: -7px;
+  margin-left: -7px;
+}
+
+#date {
+  height: 19px;
+  width: 65px;
+  top: 162px;
+  left: 190px;
+  padding-left: 2px;
+}
+
+#watchface {
+  height: 26px;
+  width: 101px;
+  top: 195px;
+  left: 155px;
+  padding-top: 10px;
+  padding-left: 2px;
+}
+
+#watchface span {
+  font-size: 20px;
+  color: aliceblue;
+}
+
+#watchface .seconds {
+  font-size: 12px;
+}
+
+.logo {
+  width: 260px;
+  height: 131px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-left: 42%;
+  margin-top: 71px;
+}
+
+.logo1 {
+  position: absolute;
+  width: 600px;  /* Breite des Logos */
+  height: 226px; /* Höhe des Logos */
+  top: 50%;      /* Zentrieren von oben */
+  left: 50%;     /* Zentrieren von links */
+  transform: translate(-50%, -50%); /* Verschiebt das Logo um die Hälfte seiner Breite und Höhe nach oben und links */
+}
