@@ -65,22 +65,17 @@ body {
   font-size: 12px;
 }
 
-.logo {
-  width: 260px;
-  height: 131px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  margin-left: 42%;
-  margin-top: 71px;
-}
+
 
 .logo1 {
   position: absolute;
-  width: 600px;  /* Breite des Logos */
-  height: 226px; /* Höhe des Logos */
-  top: 50%;      /* Zentrieren von oben */
-  left: 50%;     /* Zentrieren von links */
-  transform: translate(-50%, -50%); /* Verschiebt das Logo um die Hälfte seiner Breite und Höhe nach oben und links */
+  width: 400px;
+  height: 151px;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+canvas {
+  margin-top: -13%;
 }
